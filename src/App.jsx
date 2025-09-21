@@ -28,7 +28,7 @@ const router = createBrowserRouter(
     { path: "*", element: <NotFound /> },
   ],
   {
-    basename: "/BloodDonationPortal-Frontend",
+    basename: "/Sabaiko_Blood_Bank",
     future: {
       v7_startTransition: true,
       v7_relativeSplatPath: true,
