@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redirecting…</title>
+    <meta http-equiv="refresh" content="0; url=/Sabaiko_Blood_Bank/" />
+    <script>
+      // Preserve full path when possible by using history API if served under the repo base
+      (function () {
+        var base = "/Sabaiko_Blood_Bank/";
+        var loc = window.location;
+        if (loc.pathname.indexOf(base) !== 0) {
+          // If we're on 404 at root, just go to base
+          window.location.replace(base);
+        } else {
+          // Already under base; send to base root
+          window.location.replace(base);
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    Redirecting…
+  </body>
+</html>
